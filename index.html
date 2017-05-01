@@ -1,10 +1,10 @@
 <html>
 <head>
 <script type="text/javascript">
-document.write("Cookie = " + document.cookie); 
 var date = new Date();
 date.setDate(date.getDate()+7);
 document.cookie = "student=Nazarow; path=/; expires=" + date.toUTCString();
+document.write("Cookie:" + "\n" + document.cookie); 
 </script>
 </head>
 <body></body>
