@@ -1,11 +1,10 @@
 <html>
 <head>
 <script type="text/javascript">
-document.write("Cookie text = '" + document.cookie+"'"); 
+document.write("Cookie = " + document.cookie); 
 var date = new Date();
-date.setDate(date.getDate()+30);//+30 дней
-//document.cookie = "name=test-cookie-1-data; path=/; expires=" + date.toUTCString();
-document.cookie = "username=John Doe";
+date.setDate(date.getDate()+7);
+document.cookie = "student=Nazarow; path=/; expires=" + date.toUTCString();
 </script>
 </head>
 <body></body>
